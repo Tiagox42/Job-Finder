@@ -1,0 +1,33 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.1.0",
+    "sequelize": "^6.32.1",
+    "sqlite3": "^5.0.0"
+  },
+  "name": "job_finder",
+  "description": "Website para encontrar abrir como também procurar vagas de emprego.",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.ks"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tiagox42/Job-Finder.git"
+  },
+  "keywords": [
+    "job",
+    "job-finder"
+  ],
+  "author": "Tiago Dantas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tiagox42/Job-Finder/issues"
+  },
+  "homepage": "https://github.com/Tiagox42/Job-Finder#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
